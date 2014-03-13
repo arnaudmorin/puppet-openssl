@@ -1,13 +1,11 @@
 name    'tracywebtech-openssl'
 version '0.1.0'
-source 'UNKNOWN'
+source 'https://github.com/TracyWebTech/puppet-openssl'
 author 'tracywebtech'
 license 'Apache License, Version 2.0'
-summary 'UNKNOWN'
-description 'UNKNOWN'
-project_page 'UNKNOWN'
+summary 'Puppet module to create SSL certificates using OpenSSL'
+description 'Puppet module to create SSL certificates using OpenSSL'
+project_page 'https://github.com/TracyWebTech/puppet-openssl'
 
 ## Add dependencies, if any:
-# dependency 'username/name', '>= 1.2.0'
-
 dependency 'puppetlabs/stdlib', '>= 4.1.0'
