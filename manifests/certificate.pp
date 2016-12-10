@@ -23,7 +23,7 @@ define openssl::certificate(
   $owner              = 'root',
   $group              = 'root',
 ) {
-  include 'update'
+  include openssl::update
 
   # Build some vars
   $ssl_cert = "${base_dir}/${name}.crt"
